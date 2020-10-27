@@ -27,7 +27,7 @@
     ?>
     </main>
     <footer>
-    <<a href="https://heroku.com">Link</a>
+    <a href="https://heroku.com">Link</a>
     </footer>
 </body>
 <script src="main.js"></script>
