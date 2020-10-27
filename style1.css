@@ -28,3 +28,8 @@ footer{
     grid-area: f;
     background-color: darkmagenta;
 }
+
+a{
+    border: 1px solid black;
+    background-color: chartreuse;
+}

@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD - wiele do wielu</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
+    <header>
+        <h1>Adrian Kobusiński</h1>
+    </header>
+    <main>
     <?php
     
     require_one('lib/connect.php');
@@ -21,6 +25,10 @@
     $conn->close();
     echo("start");
     ?>
+    </main>
+    <footer>
+    <<a href="https://heroku.com">Link</a>
+    </footer>
 </body>
 <script src="main.js"></script>
 </html>
