@@ -1,9 +1,6 @@
 body{
     padding: 0px;
     margin: 0px;
-}
-
-.cont{
     background-color: chartreuse;
     height: 100vh;
     display: grid;
