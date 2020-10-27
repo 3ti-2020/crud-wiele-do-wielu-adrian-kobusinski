@@ -6,6 +6,9 @@
     grid-area: h;
     background-color: coral;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav{
@@ -49,6 +52,7 @@ a{
     text-decoration: none;
     color: black;
     padding: 20px 50px;
+    border: 1px solid black;
     background: red;
   
 }
