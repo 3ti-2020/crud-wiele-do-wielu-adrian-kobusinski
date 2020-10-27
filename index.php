@@ -20,8 +20,8 @@
         <div class="footer">
             <form action="insert.php" method="POST">
                 <ul>
-                    <li>name:<input type="text" name="name"></li>
-                    <li>tytyl:<input type="text" name="tytul"></li>
+                    <li>Nazwa:<input type="text" name="name"></li>
+                    <li>Tytuł:<input type="text" name="tytul"></li>
                     <li><input type="submit" value="INSERT"></li>
                 </ul>
             </form>
