@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.cont{
+    background-color: chartreuse;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: 
+    "h h"
+    "m f";
+}
+
+header{
+    grid-area: h;
+    background-color: coral;
+}
+
+main{
+    grid-area: m;
+    background-color: cyan;
+}
+
+footer{
+    grid-area: f;
+    background-color: darkmagenta;
+}
